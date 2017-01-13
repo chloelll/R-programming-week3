@@ -1,3 +1,12 @@
+## This is the second programming assignment for the
+	## Coursera course entitled "R Programming"
+	
+	## The assignment was to write two functions, 
+	## makeCacheMatrix and cacheSolve
+	
+	## The makeCacheMatrix functionis designed to create a 
+	## special "matrix" object that can cache its inverse.
+
 makeVector <- function(x = matrix()) {
         inv <- NULL
         set <- function(y) {
